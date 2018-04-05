@@ -1,0 +1,433 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/simulation/modelsim
+vadder
+Z1 !s110 1478906137
+!i10b 1
+!s100 Q?4eD?id>IKP]3HOfDB^c3
+IPj_z^Dl:CYN9YzNQMa5Mk3
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1477281030
+8C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/adder.v
+FC:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/adder.v
+L0 1
+Z3 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1478906137.342000
+!s107 C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista|C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/adder.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work {+incdir+C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista}
+valu
+Z6 !s110 1478906138
+!i10b 1
+!s100 4V?RTFYO4KCB>6L@0BdCH0
+Ibbmek_P`VU_FHkeYeB20b3
+R2
+R0
+w1477355489
+8C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/alu.v
+FC:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/alu.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1478906138.186000
+!s107 C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista|C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/alu.v|
+!i113 1
+R4
+R5
+vcontrol
+R1
+!i10b 1
+!s100 eJZ]MKE;85<oA^M7PbAO11
+INAX>lTZn@_eKNVQ=47[Lg2
+R2
+R0
+w1477352624
+8C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/control.v
+FC:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/control.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1478906137.279000
+!s107 C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista|C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/control.v|
+!i113 1
+R4
+R5
+vcpu
+R1
+!i10b 1
+!s100 obfDe2Y>MNCEh;j^?SB2H0
+I4KOWG?TG;6O6z<l4keQk01
+R2
+R0
+w1478568782
+8C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/cpu.v
+FC:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/cpu.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1478906137.732000
+!s107 C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/cpu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista|C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/cpu.v|
+!i113 1
+R4
+R5
+vdecoder
+R6
+!i10b 1
+!s100 C7HGZkJz_CzMdmHicM5;Q0
+I7XgM]f;0`08jgYnDQEI@b1
+R2
+R0
+w1478568694
+8C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/decoder.v
+FC:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/decoder.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1478906138.123000
+!s107 C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista|C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/decoder.v|
+!i113 1
+R4
+R5
+vdual_reg_in
+R1
+!i10b 1
+!s100 >ILMM3dKUFcXh=Y3m8PV<2
+IO2bzaEQ5>z>Md:7;Bd<NJ2
+R2
+R0
+Z7 w1445471386
+8C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/dual_reg_in.v
+FC:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/dual_reg_in.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1478906137.873000
+!s107 C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/dual_reg_in.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista|C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/dual_reg_in.v|
+!i113 1
+R4
+R5
+vhaltlogic
+R6
+!i10b 1
+!s100 edF69HWnD3SZo30^j0>c=1
+IH46:^mYm8JT=^mcz7R1810
+R2
+R0
+w1478372619
+8C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/haltlogic.v
+FC:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/haltlogic.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1478906138.248000
+!s107 C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/haltlogic.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista|C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/haltlogic.v|
+!i113 1
+R4
+R5
+vhex_to_seven_seg
+R1
+!i10b 1
+!s100 lmbeBMe^3FN8Ah=cfj3gV0
+IYXk^QAfS<^3fNiohi20SD3
+R2
+R0
+R7
+8C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/hex_to_seven_seg.v
+FC:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/hex_to_seven_seg.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1478906137.498000
+!s107 C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/hex_to_seven_seg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista|C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/hex_to_seven_seg.v|
+!i113 1
+R4
+R5
+vlab5
+R1
+!i10b 1
+!s100 lG[e<[B6GBcMoFmSGf8Hk3
+IE`MQIbE5zFJQW@ln8H^]20
+R2
+R0
+w1478906082
+8C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/lab5.v
+FC:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/lab5.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1478906137.670000
+!s107 C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/lab5.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista|C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/lab5.v|
+!i113 1
+R4
+R5
+vlab5_test
+R6
+!i10b 1
+!s100 =WNQ1WVSFf[W^I2kD:oa@3
+IY[iKz`HD417lGP:2jab>I2
+R2
+R0
+w1477966940
+8C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/lab5_test.v
+FC:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/lab5_test.v
+L0 20
+R3
+r1
+!s85 0
+31
+!s108 1478906138.482000
+!s107 C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/lab5_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista|C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/lab5_test.v|
+!i113 1
+R4
+R5
+vlab5_top
+R1
+!i10b 1
+!s100 ;BJ45EK8]@W>b?L`P_1`<1
+Ia:Y=JkgnTDP<<1eb0_Sa`3
+R2
+R0
+w1477953205
+8C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/lab5_top.v
+FC:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/lab5_top.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1478906137.795000
+!s107 C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/lab5_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista|C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/lab5_top.v|
+!i113 1
+R4
+R5
+vlab5dram
+R1
+!i10b 1
+!s100 19KIBQU0K4[k:0QiH4Z>^3
+IP`>fm5BlO3;h3blfY8?B]0
+R2
+R0
+w1478371299
+8C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/lab5dram.v
+FC:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/lab5dram.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1478906137.420000
+!s107 C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/lab5dram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista|C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/lab5dram.v|
+!i113 1
+R4
+R5
+vlab5iram2E
+R6
+!i10b 1
+!s100 ]:dSK7^YBfc=hP<ni7NTK3
+I1PN0oc0Wd`Nz_^5FF:YjO1
+R2
+R0
+w1478566336
+8C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/lab5iram2e.v
+FC:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/lab5iram2e.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1478906138.404000
+!s107 C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/lab5iram2e.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista|C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/lab5iram2e.v|
+!i113 1
+R4
+R5
+nlab5iram2@e
+vlogical
+R1
+!i10b 1
+!s100 4mD8S7V5^gSNMogFVPDCk0
+IREEiKP]OWmC9H9ga=CHj40
+R2
+R0
+w1477350195
+8C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/logical.v
+FC:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/logical.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1478906137.123000
+!s107 C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/logical.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista|C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/logical.v|
+!i113 1
+R4
+R5
+vpclock
+R1
+!i10b 1
+!s100 ?=cOXl9;e9]66EjzI9[BU0
+IHYSL_J:2go2DY1LfU`=c?3
+R2
+R0
+R7
+Z8 8C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/var_clk.v
+Z9 FC:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/var_clk.v
+L0 52
+R3
+r1
+!s85 0
+31
+Z10 !s108 1478906137.560000
+Z11 !s107 C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/var_clk.v|
+Z12 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista|C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/var_clk.v|
+!i113 1
+R4
+R5
+vregister
+R1
+!i10b 1
+!s100 JHgnULf5QNVAfa6DPl`Qn2
+IDd<f91KcYmzmK;Uf3TNET0
+R2
+R0
+w1478905076
+8C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/register.v
+FC:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/register.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1478906137.936000
+!s107 C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/register.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista|C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/register.v|
+!i113 1
+R4
+R5
+vshifter
+R1
+!i10b 1
+!s100 c_0BD5Vd6ZOKcnMI7hMMU0
+Ic`MQ1CTZeoVjb__HL89z:0
+R2
+R0
+w1477354804
+8C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/shifter.v
+FC:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/shifter.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1478906136.685000
+!s107 C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/shifter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista|C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/shifter.v|
+!i113 1
+R4
+R5
+vsignEx
+R6
+!i10b 1
+!s100 _CmC]3ak@lWME4Dh^6_1:0
+I]H;Ub0ENdOT<7fiAG[OMX0
+R2
+R0
+w1477956988
+8C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/signEx.v
+FC:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/signEx.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1478906137.998000
+!s107 C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/signEx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista|C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/signEx.v|
+!i113 1
+R4
+R5
+nsign@ex
+vsignExOFF
+R6
+!i10b 1
+!s100 SbHik<1oogS1VK]6AWa0M3
+InRN5ACKa42cN27iVf8^XI2
+R2
+R0
+w1478568281
+8C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/signExOFF.v
+FC:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/signExOFF.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1478906138.342000
+!s107 C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/signExOFF.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista|C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/signExOFF.v|
+!i113 1
+R4
+R5
+nsign@ex@o@f@f
+vvar_clk
+R1
+!i10b 1
+!s100 I74T7433gZW:e1zM[;`U`3
+I[3@Gl6@3EUYbL@[>nMMDm1
+R2
+R0
+R7
+R8
+R9
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R4
+R5

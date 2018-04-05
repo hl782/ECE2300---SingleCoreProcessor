@@ -1,0 +1,34 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/Justin/Documents/1\ Fall\ 2016/ECE\ 2300/Labs/Lab\ 5/lab5_dista {C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/shifter.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Justin/Documents/1\ Fall\ 2016/ECE\ 2300/Labs/Lab\ 5/lab5_dista {C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/logical.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Justin/Documents/1\ Fall\ 2016/ECE\ 2300/Labs/Lab\ 5/lab5_dista {C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/control.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Justin/Documents/1\ Fall\ 2016/ECE\ 2300/Labs/Lab\ 5/lab5_dista {C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/adder.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Justin/Documents/1\ Fall\ 2016/ECE\ 2300/Labs/Lab\ 5/lab5_dista {C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/lab5iramHRM.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Justin/Documents/1\ Fall\ 2016/ECE\ 2300/Labs/Lab\ 5/lab5_dista {C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/lab5dram.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Justin/Documents/1\ Fall\ 2016/ECE\ 2300/Labs/Lab\ 5/lab5_dista {C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/hex_to_seven_seg.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Justin/Documents/1\ Fall\ 2016/ECE\ 2300/Labs/Lab\ 5/lab5_dista {C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/var_clk.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Justin/Documents/1\ Fall\ 2016/ECE\ 2300/Labs/Lab\ 5/lab5_dista {C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/lab5.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Justin/Documents/1\ Fall\ 2016/ECE\ 2300/Labs/Lab\ 5/lab5_dista {C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/cpu.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Justin/Documents/1\ Fall\ 2016/ECE\ 2300/Labs/Lab\ 5/lab5_dista {C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/lab5_top.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Justin/Documents/1\ Fall\ 2016/ECE\ 2300/Labs/Lab\ 5/lab5_dista {C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/dual_reg_in.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Justin/Documents/1\ Fall\ 2016/ECE\ 2300/Labs/Lab\ 5/lab5_dista {C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/register.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Justin/Documents/1\ Fall\ 2016/ECE\ 2300/Labs/Lab\ 5/lab5_dista {C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/signEx.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Justin/Documents/1\ Fall\ 2016/ECE\ 2300/Labs/Lab\ 5/lab5_dista {C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/decoder.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Justin/Documents/1\ Fall\ 2016/ECE\ 2300/Labs/Lab\ 5/lab5_dista {C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/alu.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Justin/Documents/1\ Fall\ 2016/ECE\ 2300/Labs/Lab\ 5/lab5_dista {C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/haltlogic.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Justin/Documents/1\ Fall\ 2016/ECE\ 2300/Labs/Lab\ 5/lab5_dista {C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/signExOFF.v}
+
+vlog -vlog01compat -work work +incdir+C:/Users/Justin/Documents/1\ Fall\ 2016/ECE\ 2300/Labs/Lab\ 5/lab5_dista {C:/Users/Justin/Documents/1 Fall 2016/ECE 2300/Labs/Lab 5/lab5_dista/lab5_test.v}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  lab5_test
+
+add wave *
+view structure
+view signals
+run -all
